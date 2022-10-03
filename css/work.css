@@ -1,0 +1,102 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+
+#header {
+     background-color: rgb(39, 39, 236);
+     text-align: center;
+     color: beige;
+     padding: 20px;
+}
+.navigation{
+background-color: aqua;
+padding: 20px;
+text-decoration: none;
+
+}
+.sect{
+background-color: #c01ea5;
+position: absolute;
+height: 700px;
+width: 1200px;
+
+}
+#link{
+text-decoration: none;
+margin-right: 20px;
+}
+.main{
+background-color: rgb(205, 205, 226);
+padding: 10px;
+
+}
+.firstp{
+     width: 32%;
+     border: solid rebeccapurple;
+     
+}
+.secondp{
+     width: 32%;
+     border: solid rebeccapurple;
+}
+#form{
+     border: solid 10px;
+     border-radius: 10px;
+     width: 33%;
+}
+.button {
+     padding: 15px 25px;
+     font-size: 24px;
+     text-align: center;
+     cursor: pointer;
+     outline: none;
+     color: #fff;
+     background-color: #4CAF50;
+     border: none;
+     border-radius: 15px;
+     box-shadow: 10 9px rgb(192, 160, 160);
+     text-decoration: none;
+   }
+   .lll{
+     text-decoration: none;
+   }
+   .container{
+     display: flex;
+     flex-flow: wrap;
+
+   }
+   @media screen and (max-width:1200px) {
+     #form .container div{
+          width: 32%;
+     }
+   }  
+   @media screen and (max-width:600px) {
+     #form .container div{
+          width: 100%;
+     }
+   }
+
+   .button:hover {background-color: #3e8e41}
+   
+   .button:active {
+     background-color: #3e8e41;
+     box-shadow: 0 5px rgb(243, 13, 13);
+     transform: translateY(4px);
+   }
+
+
+.footer{
+     background-color: rgb(39, 39, 236);
+     padding: 30px;
+     color: #fff;
+     text-decoration: none;
+}
+.footer a{
+text-decoration: none;
+color: red;
+
+}
